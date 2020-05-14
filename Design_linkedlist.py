@@ -108,39 +108,7 @@ class LinkedList:
         if current.next is None:
             return
         current.next = current.next.next
-            
 
-mylinkedlist = LinkedList()
-
-mylinkedlist.add_at_head(2)
-
-mylinkedlist.add_at_head(1)
-
-mylinkedlist.append(4)
-
-mylinkedlist.append(5)
-
-mylinkedlist.add_at_index(2, 3)
-
-mylinkedlist.get_size()
-
-mylinkedlist.get_at_index(0)
-
-mylinkedlist.get_at_index(1)
-
-mylinkedlist.get_at_index(2)
-
-mylinkedlist.get_at_index(3)
-
-mylinkedlist.get_at_index(4)
-        
-mylinkedlist.delete_at_index(1)           
-
-mylinkedlist.get_at_index(0)        
-
-mylinkedlist.get_at_index(1)            
-        
-        
         
             
             
